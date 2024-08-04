@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './about.module.css'
-import image from '../../../../public/Image/b.jpg'
-import image1 from '../../../../public/Image/smart-pic.jpg'
+import image from '../../../Image/b.jpg'
+import image1 from '../../../Image/smart-pic.jpg'
 
 const Index = () => {
   return (

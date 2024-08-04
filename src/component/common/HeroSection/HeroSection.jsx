@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './HeroSection.module.css';
-import image from '../../../../public/Image/c.jpg'
+import image from '../../../Image/c.jpg'
 
 const HeroSection = () => {
   return (

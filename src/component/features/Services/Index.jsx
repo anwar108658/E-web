@@ -1,117 +1,143 @@
 import React from 'react'
 import style from './service.module.css'
 import Card from '../../common/Card/Card'
+import image from '../../../Image/1.jpeg'
+import image2 from '../../../Image/laptop-1.jpeg'
 
 const index = () => {
 
   const data = [
     {
       category:"mobile",
-      image:"../../../../public/Image/1.jpeg",
+      image: image,
       description:"Nokia/3310",
+      price:"9999"
+    },
+    {
+      category:"laptop",
+      image: image2,
+      description:"Dell/3310",
       price:"9999"
     },
     {
       category:"mobile",
-      image:"../../../../public/Image/2.jpeg",
+      image: image,
       description:"Nokia/3310",
+      price:"9999"
+    },
+    {
+      category:"laptop",
+      image: image2,
+      description:"Dell/3310",
       price:"9999"
     },
     {
       category:"mobile",
-      image:"../../../../public/Image/3.jpeg",
+      image: image,
       description:"Nokia/3310",
+      price:"9999"
+    },
+    {
+      category:"laptop",
+      image: image2,
+      description:"Dell/3310",
       price:"9999"
     },
     {
       category:"mobile",
-      image:"../../../../public/Image/4.jpeg",
+      image: image,
       description:"Nokia/3310",
       price:"9999"
     },
     {
       category:"laptop",
-      image:"../../../../public/Image/laptop-1.jpeg",
+      image: image2,
       description:"Dell/3310",
-      price:"20000"
-    },
-    {
-      category:"laptop",
-      image:"../../../../public/Image/laptop-2.jpeg",
-      description:"Dell/3310",
-      price:"20000"
-    },
-    {
-      category:"laptop",
-      image:"../../../../public/Image/laptop-3.jpeg",
-      description:"Dell/3310",
-      price:"20000"
-    },
-    {
-      category:"laptop",
-      image:"../../../../public/Image/laptop-2.jpeg",
-      description:"Dell/3310",
-      price:"20000"
-    },
-    {
-      category:"laptop",
-      image:"../../../../public/Image/laptop-5.jpeg",
-      description:"Dell/3310",
-      price:"20000"
-    },
-    {
-      category:"mobile",
-      image:"../../../../public/Image/1.jpeg",
-      description:"Nokia/3310",
       price:"9999"
     },
     {
       category:"mobile",
-      image:"../../../../public/Image/2.jpeg",
+      image: image,
       description:"Nokia/3310",
+      price:"9999"
+    },
+    {
+      category:"laptop",
+      image: image2,
+      description:"Dell/3310",
       price:"9999"
     },
     {
       category:"mobile",
-      image:"../../../../public/Image/3.jpeg",
+      image: image,
       description:"Nokia/3310",
+      price:"9999"
+    },
+    {
+      category:"laptop",
+      image: image2,
+      description:"Dell/3310",
       price:"9999"
     },
     {
       category:"mobile",
-      image:"../../../../public/Image/4.jpeg",
+      image: image,
       description:"Nokia/3310",
       price:"9999"
     },
     {
       category:"laptop",
-      image:"../../../../public/Image/laptop-1.jpeg",
+      image: image2,
       description:"Dell/3310",
-      price:"20000"
+      price:"9999"
+    },
+    {
+      category:"mobile",
+      image: image,
+      description:"Nokia/3310",
+      price:"9999"
     },
     {
       category:"laptop",
-      image:"../../../../public/Image/laptop-2.jpeg",
+      image: image2,
       description:"Dell/3310",
-      price:"20000"
+      price:"9999"
+    },
+    {
+      category:"mobile",
+      image: image,
+      description:"Nokia/3310",
+      price:"9999"
     },
     {
       category:"laptop",
-      image:"../../../../public/Image/laptop-3.jpeg",
+      image: image2,
       description:"Dell/3310",
-      price:"20000"
+      price:"9999"
+    },
+    {
+      category:"mobile",
+      image: image,
+      description:"Nokia/3310",
+      price:"9999"
     },
     {
       category:"laptop",
-      image:"../../../../public/Image/laptop-2.jpeg",
+      image: image2,
       description:"Dell/3310",
-      price:"20000"
+      price:"9999"
+    },
+    {
+      category:"mobile",
+      image: image,
+      description:"Nokia/3310",
+      price:"9999"
     },
     {
       category:"laptop",
-      image:"../../../../public/Image/laptop-5.jpeg",
+      image: image2,
       description:"Dell/3310",
-      price:"20000"
+      price:"9999"
     },
   ]
 

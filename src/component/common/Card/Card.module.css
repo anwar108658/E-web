@@ -1,0 +1,25 @@
+.card{padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: .3rem;
+    border: 1px solid #ccc;
+}
+.CardImage{
+    position: relative;
+    width: 13rem;
+    aspect-ratio: 1;
+    transition: all .3s linear;
+    &:hover{
+        scale: 0.9;
+    }
+}
+.CardDescription{
+    font-weight: 500;
+}
+.CardPrice{
+    color: rgb(15, 130, 78);
+    font-weight: 400;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,26 @@
+.contactUs{
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+    & form{
+        background-color: #aaa;
+        border-radius: .5rem;
+        padding: 1rem;
+        & label{
+            display: block;
+        }
+        & input,textarea{
+            padding: .3rem;
+            font-size: 1rem;
+        }
+        & label,input{
+            width: 100%;
+        }
+        & button{
+            padding: .3rem .6rem;
+            border-radius: .5rem;
+            cursor: pointer;
+        }
+    }
+}

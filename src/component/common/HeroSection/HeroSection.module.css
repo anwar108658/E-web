@@ -1,0 +1,47 @@
+.backGroundImage{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../.././../public/Image/sabri-tuzcu-wunVFNvqhfE-unsplash.jpg);
+    background-attachment: fixed;
+}
+.parentHeroSection{
+    display: flex;
+    padding: 8rem 0;
+    & p{
+        font-size: 1.3rem;
+    }
+}
+.leftHeroSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    & .firstLeft{
+        color: #fff;
+        font-weight: 500;
+    }
+    & .secondLeft{
+        color: rgb(0, 179, 255);
+        font-size: 3rem;
+        text-shadow: 2px 2px 1px #000;
+    }
+    & .thirdLeft{
+        color: #fff;
+    }
+    & .button{
+        max-width: 5rem;
+        padding: .3rem;
+        margin-top: 2rem;
+        font-size: 1rem;
+        border-radius: .4rem;
+        cursor: pointer;
+    }
+}
+.rightHeroSection{
+    & img{
+        background: none;
+        width: 25rem;
+        border-radius: 1rem;
+        opacity: 0.7;
+    }
+}

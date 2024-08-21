@@ -2,7 +2,7 @@
     background-color: #ccc;
     display: flex;
     justify-content: center;
-    padding: 4rem 0;
+    padding: 4rem 1rem;
     & form{
         background-color: #aaa;
         border-radius: .5rem;
@@ -14,13 +14,21 @@
             padding: .3rem;
             font-size: 1rem;
         }
-        & label,input{
+        & label,input,textarea{
             width: 100%;
         }
         & button{
             padding: .3rem .6rem;
             border-radius: .5rem;
             cursor: pointer;
+        }
+    }
+}
+
+@media (max-width:380px) {
+    .contactUs{
+        & form{
+            padding: .3rem;
         }
     }
 }

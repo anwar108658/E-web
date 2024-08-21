@@ -26,3 +26,10 @@
         border: 1px solid #ccc;
     }
 }
+@media (max-width:380px) {
+    .aboutUs{
+        & ul{
+            padding-left: 1.5rem;
+        }
+    }
+}

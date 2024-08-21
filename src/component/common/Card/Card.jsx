@@ -2,7 +2,6 @@ import React from 'react'
 import style from './Card.module.css'
 
 const Card = ({data}) => {
-    console.log(data)
   return (
     <>
     {data.map((item) => (

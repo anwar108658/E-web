@@ -26,3 +26,58 @@ header{
         }
     }
 }
+.icon{
+    display: none;
+    width: 43px;
+}
+
+@media (max-width: 900px) {
+    .navflex nav ul{
+        & li{
+            font-size: 1.1rem;
+        }
+    }
+}
+@media (max-width:700px) {
+    .navflex nav ul{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        top: -260px;
+        right: 0;
+        gap: 1.5rem;
+        padding: .5rem 1rem;
+        border-left: 3px solid rgb(0, 179, 255);
+        border-bottom: 3px solid rgb(0, 179, 255);
+        border-left: 3px solid rgb(0, 179, 255);
+        z-index: 1;
+        transition: all .2s ease-in-out;
+        /* transform: translate(0%,0%); */
+        & li{
+            border: 1px solid #ccc;
+            padding: .2rem 1rem;
+            & a{
+                color: #000;
+                &:hover{
+                    color: rgb(0, 179, 255);
+                }
+            }
+            
+        }
+    }
+    .icon{
+        display: block;
+        cursor: pointer;
+    }
+    .trueIcon nav ul{
+        top: 60px;
+    }
+}
+@media (max-width:400px) {
+    .logo{
+        & h1{
+            font-size: 1.7rem;
+        }
+    }
+}

@@ -3,3 +3,13 @@
     background-color: black;
     color: #fff;
 }
+@media (max-width:550px) {
+    .footer{
+        padding: 4rem;
+    }
+}
+@media (max-width:380px) {
+    .footer{
+        padding: 3rem;
+    }
+}

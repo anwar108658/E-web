@@ -1,4 +1,5 @@
-.card{padding: .5rem;
+.card{
+    padding: .5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,4 +23,9 @@
     color: rgb(15, 130, 78);
     font-weight: 400;
     font-size: 1.2rem;
+}
+@media (max-width:850px) {
+    .card{
+        /* align-items: center; */
+    }
 }
